@@ -1,0 +1,22 @@
+{
+  "name": "projeto-teste-mobile",
+  "version": "1.0.0",
+  "description": "meu primeiro teste mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "npx wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.3.2"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.3.2",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "chromedriver": "^109.0.0",
+    "wdio-chromedriver-service": "^8.0.1"
+  }
+}
